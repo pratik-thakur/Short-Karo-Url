@@ -3,7 +3,7 @@ require('./models/Url');
 
 mongoose = require('mongoose');
 
-const DATABASE = 'mongodb://localhost/short-karo';
+const DATABASE = 'mongodb+srv://taskapp:pratik@cluster0.ixznc.mongodb.net/short-karo';
 
 mongoose.connect(DATABASE, {
     useNewUrlParser: true,
